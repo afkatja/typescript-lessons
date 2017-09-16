@@ -1,0 +1,26 @@
+{
+  "name": "typescript-lessons",
+  "version": "1.0.0",
+  "description": "Learning typescript",
+  "main": "app.js",
+  "dependencies": {
+    "systemjs": "^0.20.18"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/afkatja/typescript-lessons.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Katja Hollaar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afkatja/typescript-lessons/issues"
+  },
+  "homepage": "https://github.com/afkatja/typescript-lessons#readme"
+}
