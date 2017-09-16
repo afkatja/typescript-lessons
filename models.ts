@@ -1,7 +1,7 @@
-interface iIdGenerator {
+export interface iIdGenerator {
   newId: number;
 }
 
-interface iHaveLength {
+export interface iHaveLength {
   length: number;
 }

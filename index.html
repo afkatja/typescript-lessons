@@ -4,9 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>ToDo App in Typescript</title>
 </head>
 <body>
-  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/systemjs/0.20.11/system.js"></script>
+  <script type="text/javascript">
+    SystemJS.config({
+      map: {
+        app: './'
+      },
+      packages: {
+        app: {
+          defaultExtension: 'js',
+          main: 'app.js'
+        }
+      }
+    });
+    SystemJS.import('app').catch(function (err) { console.error(err); });
+  </script>
 </body>
 </html>

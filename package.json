@@ -4,11 +4,13 @@
   "description": "Learning typescript",
   "main": "app.js",
   "dependencies": {
+    "lite-server": "^2.3.0",
     "systemjs": "^0.20.18"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "dev": "tsc && lite-server"
   },
   "repository": {
     "type": "git",
