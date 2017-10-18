@@ -39,3 +39,12 @@ export class TodoService implements iTodoService, iIdGenerator {
     return todo;
   }
 }
+
+function clone<T>(value: T): T {
+  const serialized = JSON.stringify(value);
+  return JSON.parse(serialized);
+}
+
+function totalLength<T extends iHaveLength>(value1: T, value2: T) {
+  return value1.length + value2.length;
+}

@@ -5,7 +5,7 @@ export interface ToDo {
   state: todoState;
 }
 
-enum todoState {
+export enum todoState {
   New = 1,
   Active,
   Completed,
